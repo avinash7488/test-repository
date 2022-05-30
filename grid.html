@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+          display: grid;
+          width: 60%;
+          margin: auto;
+          
+        }
+        #first{
+          display: grid;
+          grid-template-columns: 49% 49%;
+          grid-template-rows: 150px;
+           column-gap: 2%;
+           
+        }
+        #first>h1{
+         padding: 25px 0px 25px 25px;
+          background-color: rgb(37, 36, 36);
+          border-radius: 10px;
+          color: white;
+        }
+        #sec{
+          display: grid;
+          grid-template-columns: 25% 73%;
+          grid-template-rows: 150px;
+          column-gap: 2%;
+          margin-top: -30px;
+        }
+        #sec>h1{
+          padding: 25px 0px 25px 25px;
+          background-color: rgb(37, 36, 36);
+          border-radius: 10px;
+          color: white;
+        }
+        #last{
+          display: grid;
+          grid-template-columns: 100%;
+          grid-template-rows: 150px;
+          margin-top: -30px;
+        }
+        #last>h1{
+          padding: 25px 0px 25px 25px;
+          background-color: rgb(37, 36, 36);
+          border-radius: 10px;
+          color: white;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="container">
+        <div id="first">
+          <h1>A</h1>
+          <h1>B</h1>
+        </div>
+        <div id="sec">
+          <h1>C</h1>
+          <h1>D</h1>
+        </div>
+        <div id="last">
+          <h1>E</h1>
+        </div>
+        
+      </div>
+    </body>
+</html>
